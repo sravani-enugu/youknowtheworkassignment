@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    background-color: #F19FA8;
+    color: #2A2A63;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    box-shadow: 6px 10px 47px -3px rgba(0, 0, 0, 0.78);
+    -webkit-box-shadow: 6px 10px 47px -3px rgba(0, 0, 0, 0.78);
+    -moz-box-shadow: 6px 10px 47px -3px rgba(0, 0, 0, 0.78);
+}
+
+.name {
+    font-weight: 500;
+}
+
+.para {
+    font-size: 13px;
+}
+
+.second-desc {
+    font-size: 13px;
+}
+
+.work-exp {
+    flex-direction: column;
+}
+
+.margin-desktop {
+    margin: 20px 0;
+}
+
+.skills-svg svg {
+    margin-left: 5px;
+}
+
+.spcl {
+    border-bottom: 3px solid;
+}
+
+.svg {
+    background-color: #2A2A63;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    color: #F19FA8;
+}
+
+
+
+#logo {
+    border: 3px solid;
+    height: 60px;
+    width: 60px;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.circle {
+    margin-right: 45px;
+}
+
+#circle {
+    margin-right: 70px;
+}
+
+.v-circle {
+    margin-right: 10px;
+}
+
+@media(min-width:768px) {
+    .work-container {
+        flex-direction: row;
+    }
+
+    .border-right {
+        border-right: 3px solid;
+    }
+
+    .margin-desktop {
+        margin: 40px 0;
+    }
+}
